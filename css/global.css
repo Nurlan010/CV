@@ -1,0 +1,36 @@
+
+.light-grey{
+	background: #f3f3f3;
+margin: 0.5rem 1rem; 
+border-radius: 20px solid grey;
+
+}
+
+.skills{
+	color: #FFFFFF;
+	background-color: teal; 
+	border-radius: 10px;
+	text-align: center;
+
+}
+
+.container-size{
+	padding: 0.25rem 2rem; 
+	width: 100%;
+	height: auto;
+
+}
+
+/*Right Column*/
+.right-column .right1-container {
+	background: #fff;
+	width: 98%;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+
+}
+.right-column .right1-container i{
+	color: teal;
+	margin-right: 2rem; 
+}
+

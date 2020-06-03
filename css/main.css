@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+html{
+	font-family: Roboto, san-serif;
+}
+
+body{
+	background: #f1f1f1;
+}
+
+.page-container{
+margin-top: 0.25rem;
+max-width: 1400px;
+
+}
+.grid{
+	padding: 1rem; 
+	display: flex;
+	flex-direction: row;
+	z-index: 1;
+
+
+}
+ /*left column*/
+.left-column{
+	min-width: 400px;
+}
+
+.left-column-d{
+	background: #fff;
+	width: 100%;
+	
+}
+.image{
+	position: relative;
+}
+
+.image h2{
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	padding: 1.5rem;
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+
+.section-container p{
+	padding: 0.5rem 1rem;
+	color: grey;
+}
+.section-container p i{
+	padding-right: 1rem;
+	color: teal;
+}
+
+
+/*Rght column*/
+
+.right-column .right1-container h2{
+color: #757575;
+padding: 1.5rem;
+padding-bottom: 1rem;
+font-size: 2rem;
+font-weight: 400;
+
+}
+
+.right-column .right1-container h2 i{
+	color: teal;
+	margin-right: 1rem;
+}
+.right-column .container-size h4{
+	letter-spacing: 2px;
+	padding-top: 1rem;
+	padding-bottom:0.25rem;
+	font-weight: 600;
+	color: #656565; 
+}
+
+.right-column .container-size h5{
+	font-size: 1rem;
+	padding: 1rem;
+	padding-bottom: 0.5rem;
+	color: #009668;
+	font-weight: 400;
+}
+
+.right-column .container-size h5 i{
+	color: teal;
+	margin-right: 1rem; 
+}
+.right-column .container-size h5 span{
+	color: #fff;
+	background: #009668;
+	padding: 0.25rem 0.5rem;
+	border-radius: 5px;
+}
+
+/*footer*/
+.son{
+	text-align: center;
+	color: #fff;
+	background: #009688;
+	padding: 0.5rem;
+	font-size: 1rem;
+}
+.son p{
+	margin: 1rem 2rem;
+}
+
+.son span:hover{
+	opacity: 0.6;
+}
+
+.bye{
+	text-decoration: underline;
+	color: #fff;
+}
+.bye:hover{
+	color: blue;
+}

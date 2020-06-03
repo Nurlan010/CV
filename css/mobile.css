@@ -1,0 +1,14 @@
+@media(max-width: 500px){
+.grid{
+	display: flex;
+	flex-direction: column;
+}
+.right-column{
+	padding-top: 1rem;
+	margin-left: -1rem;
+	min-width: 410px;
+}
+	footer{
+		min-width: 420px;
+	}
+}
